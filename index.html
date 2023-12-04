@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>RemZone | Автосервис</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="/img/svg/Лого2.svg" alt="Ремонт автомобилей" class="header__logo-pic">
+                    </a>
+                </div>
+    
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Главная</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">О нас</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Услуги</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Контакты</a>
+                        </li>
+                        <h3 class="header__item__tel">
+                            +7 (922) 419-78-49 Горячая линия
+                        </h3>
+                    </ul>       
+                </nav>
+            </div>
+
+        </div>
+    </header>
+        <h1 class="remont__avto">
+        Ремонт автомобилей
+        </h1>
+            <div class="vtoroyfon">
+
+            </div>
+        <div class="wrapper">    
+                <div class="mipredlagaem">
+                <b>Мы предлагаем:</b><br>
+                <pre>
+        Замену масел и технических жидкостей.
+        Слесарные работы любой сложности.
+        Установка сигнализации и автоэлектрики.
+        Заправка кондиционера.<br><button class="podrobnee" type="button">Подробнее</button></pre>
+                </div>
+        </div>  
+        
+    <section class="how_we_work">
+        <div class="wrapper">
+            <h2 class="how_we_work_text1">
+                КАК МЫ РАБОТАЕМ? 
+            </h2>
+            <div class="numbers">
+                <div class="title1">
+                    СООБЩЕНИЕ О ПРОБЛЕМЕ
+                </div>
+                <button class="mobile-button"><i class="fa fa-bars"></i></button>
+                <div class="descr1">
+Вы звоните в наш техцентр, описываете вашу проблему и уточняете нужную нам информацию
+                </div>
+                <div class="title2">
+                    РАСЧЕТ СТОИМОСТИ РЕМОНТА
+                </div>
+                <div class="descr2">
+Наши сотрудники сделают предварительную* калькуляцию стоимости ремонта по вашему авто
+                </div>
+                <div class="title3">
+                    РЕМОНТ
+                </div>
+                <div class="descr3">
+Мы договариваемся о цене, сроках и вы привозите авто на ремонт
+                </div>
+
+
+            </div> 
+
+        </div> 
+        <div class="all_services">
+            <div class="wrapper">
+                
+                <div class="services">
+                    <div class="services_pic">
+                        <img src="./img/svg/maslo.png" alt="error" class="services_img">
+                    </div>
+                    <div class="services_info">
+                        <h3 class="services_title">
+                            Замена масла в КПП или ДВС:
+                        </h3>
+                        <p class="services_text">
+        Мы заливаем только качественное масло!<br>
+        Замена от 500 руб.<br> 
+        <button type="button" class="sign_up1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Записаться
+        </button>
+                        </p>  
+            <!-- Модальное окно -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content light-theme">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Обратный звонок</h5>
+                        <button class="theme-button position-absolute top-10 start-50 btn btn-secondary" aria-label="Изменить тему">Изменить тему</button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="md-3">
+                                <label for="validationCustomUsername" class="form-label">Как к вам обращаться?</label>
+                                <div class="input-group has-validation">
+                                  <input type="text" pattern="[A-Za-zА-Яа-яЁё]" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                  <div class="invalid-feedback">
+                                    Пожалуйста, выберите имя пользователя.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputphonenumber" class="form-label">Ваш номер телефона</label>
+                              <input type="tel" pattern="8-[0-9]{10}" class="form-control" id="exampleInputphonenumber" aria-describedby="emailHelp" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Оставить заявку</button>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services_info">
+                        <h3 class="services_title">
+                            Слесарные работы любой сложности:
+                        </h3>
+                        <p class="services_text">
+                        Мастера высочайшего уровня.<br>
+                        Новейшие системы диагностики.<br>
+                        Огромный опыт и любовь к своей работе<br> <button class="sign_up1">Записаться</button>
+ 
+                        </p>
+                    </div>
+                    <div class="services_pic">
+                        <img src="./img/svg/slesar.png" alt="error" class="services_img">
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services_pic">
+                        <img src="./img/svg/signalka.png" alt="error" class="services_img">
+                    </div>
+                    <div class="services_info">
+                        <h3 class="services_title">
+                            Установка сигнализации и автоэлектрики:
+                        </h3>
+                        <p class="services_text">
+                        Обеспечить безопасность <br>вашего транспортного средства<br> - главная наша задача!<br><br> <button class="sign_up1">Записаться</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services_info">
+                        <h3 class="services_title">
+                            Заправка кондиционера:
+                        </h3>
+                        <p class="services_text">
+                            Подготовьте свой автомобиль<br> к летнему сезону!<br>
+                            1000 руб.<br><button class="sign_up1">Записаться</button>
+    
+                        </p>
+                    </div>
+                    <div class="services_pic">
+                        <img src="./img/svg/konder.png" alt="error" class="services_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="bottom_section">
+        <div class="wrapper">
+            <div class="bottom_info">
+                <div class="about_us">
+                    <h4 class="about_us_title">
+                        О нас<br>
+                    </h4>
+                    <p class="about_us_text">
+                        RemZone-это не только самая быстро растущая сеть автосервисов по Сургуту. Это тысячи клиентов, которые нам доверяют. Это дружная команда людей, вдохновленных общей идеей и общим делом. Это строгие стандарты качества во всем и постоянная поддержка наших клиентов.
+                    </p>
+                </div>
+                <div class="work_time">
+                    <h4 class="work_time_title">
+                        Время работы<br>
+                    </h4>
+                    <p class="work_time_text"> 
+                        С 8:00 - 22:00 Ежедневно
+                    </p>
+                </div>
+                <div class="contacts">
+                    <div class="contacts_title">
+                        Контакты<br>
+                    </div>
+                    <div class="contacts_text">
+                        <img src="./img/svg/vk.png" alt="error" class="vk_pic">
+                        <p class="contact_link">
+                            https://vk.com/remzoneSurgut
+                        </p>
+                        <img src="./img/svg/mail.png" alt="error" class="vk_pic">
+                        <p class="contact_link">
+                            remzoneSugrut@mail.ru
+                        </p>
+                        <img src="./img/svg/2gis.png" alt="error" class="vk_pic">
+                        <p class="contact_link">
+                            г.Сургут Профсоюзов 18
+                        </p>
+                        <img src="./img/svg/tel.png" alt="error" class="vk_pic">
+                        <p class="tel">
+                            +7(922) 419-78-49
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="end__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="/img/svg/Лого2.svg" alt="Ремонт автомобилей" class="header__logo-pic">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
